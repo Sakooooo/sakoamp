@@ -18,8 +18,16 @@ function App() {
     <div className="App">
       <div className="ServerPicker">
         <form>
+          <label for="server_type">Server Type</label>
+          <select name="server_type" id="server_type">
+            <option value="jellyfin">Jellyfin</option>
+            <option value="navidrome">Navidrome</option>
+          </select>
+          <br></br>
           <label for="server_address">Server Address</label>
           <input type="text" id="server_address"></input>
+          <br></br>
+          <input type="submit" value="Confirm"></input>
         </form>
       </div>
     </div>
