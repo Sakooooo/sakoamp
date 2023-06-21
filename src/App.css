@@ -1,7 +1,14 @@
-.logo.vite:hover {
-  filter: drop-shadow(0 0 2em #747bff);
+.App > .server_picker {
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
 }
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafb);
+.App > .server_picker > #server_form {
+  display: block;
+  background-color: #2d2d2d;
+  padding: 100px;
+  width: 25%;
+  align-content: center;
 }

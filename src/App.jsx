@@ -12,12 +12,12 @@ function App() {
     setGreetMsg(await invoke("greet", { name }));
   }
 
-  async function checkFile(file) {}
-
+  async function checkFile(file) { }
+  // TODO(sako):: HOW THE HELL DO I CENTER A BLOCK OH MY GOD PLEASE HELP PELASE PLEAS EPLASEKLPASRFJIKEWPO
   return (
     <div className="App">
-      <div className="ServerPicker">
-        <form>
+      <div className="server_picker">
+        <form id="server_form">
           <label for="server_type">Server Type</label>
           <select name="server_type" id="server_type">
             <option value="jellyfin">Jellyfin</option>
