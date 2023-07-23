@@ -9,9 +9,11 @@ mkShell {
     # rust
     rustup
     cargo
+    pkg-config # this works for rust too?
   ];
   buildInputs = [
     cargo-tauri
+    glibc.dev
   ];
 
 }
