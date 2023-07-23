@@ -13,6 +13,7 @@ mkShell {
   ];
   buildInputs = [
     cargo-tauri
+    glibc
     glibc.dev
   ];
 
