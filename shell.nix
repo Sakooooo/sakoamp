@@ -10,7 +10,7 @@ mkShell {
     cargo
   ];
   buildInputs = with python310Packages; [
-    rust-tauri
+    cargo.rust-tauri
   ];
 
 }
