@@ -3,9 +3,10 @@ with import <nixpkgs> {};
 mkShell {
   name = "SakoAmp - Nix Shell";
   nativeBuildInputs = [
+    # js 
     nodejs
-    rust
     yarn
+    # rust
     rustup
     cargo
   ];
