@@ -15,6 +15,7 @@ mkShell {
     cargo-tauri
     glib.dev
     glibc.dev
+    webkitgtk.dev
   ];
 
 }
