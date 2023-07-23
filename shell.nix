@@ -1,7 +1,7 @@
 with import <nixpkgs> {};
 
 mkShell {
-  name = "SakoAmp- Nix Shell";
+  name = "SakoAmp - Nix Shell";
   nativeBuildInputs = [
     nodejs
     rust
@@ -9,7 +9,7 @@ mkShell {
     rustup
     cargo
   ];
-  buildInputs = with python310Packages; [
+  buildInputs = [
     cargo-tauri
   ];
 
